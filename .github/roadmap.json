@@ -1,0 +1,171 @@
+[
+  {
+    "key": "lab-01",
+    "title": "Lab-01 — HTML-first Interactive Game (minimal JS)",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "lab",
+      "lab-01",
+      "Frontend",
+      "HTML"
+    ],
+    "milestone": "HTML and CSS Foundations",
+    "task": "Complete the Lab 1 document. Build an HTML-first, multi-page interactive game. Use JavaScript only for the small browser interactions required by the lab.",
+    "acceptance": [
+      "Upload the completed files to labs/lab-01/ with index.html as the entry point.",
+      "Include the pages, navigation, media, and interactive behavior required by the Lab 1 document.",
+      "Add a link from the student portfolio to the published lab and verify that it loads through GitHub Pages.",
+      "Add labs/lab-01/README.md with run instructions and a brief reflection on the completed work."
+    ]
+  },
+  {
+    "key": "lab-02",
+    "title": "Lab-02 — CSS: Crash Course",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "lab",
+      "lab-02",
+      "Frontend",
+      "CSS"
+    ],
+    "milestone": "HTML and CSS Foundations",
+    "task": "Complete the Lab 2 document, a crash course in pure CSS without frameworks.",
+    "acceptance": [
+      "Upload the completed files to labs/lab-02/ with index.html as the entry point.",
+      "Demonstrate the selectors, typography, spacing, sizing, backgrounds, layout, and responsive behavior required by the Lab 2 document.",
+      "Add a link from the student portfolio to the published lab and verify that its pages and assets load correctly.",
+      "Add labs/lab-02/README.md with run instructions and a brief reflection on the completed work."
+    ]
+  },
+  {
+    "key": "lab-04",
+    "title": "Lab-04 — JavaScript Basics: Hi–Lo Game (MVP → MVC)",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "lab",
+      "lab-04",
+      "Frontend",
+      "JavaScript",
+      "DOM",
+      "Events",
+      "MVC"
+    ],
+    "milestone": "JavaScript Browser Applications",
+    "task": "Build the Hi–Lo guessing game by following the Lab 4 document, moving from a minimum viable implementation toward the required MVC structure.",
+    "acceptance": [
+      "Add all files required by the Lab 4 document under labs/lab-04/ and preserve the required structure and filenames.",
+      "Implement the required game logic, DOM updates, event handling, and timed interactions.",
+      "Run the application in the browser and resolve unintended console errors.",
+      "Add labs/lab-04/README.md with run instructions, what you built, challenges, and possible improvements."
+    ]
+  },
+  {
+    "key": "lab-05",
+    "title": "Lab-05 — JavaScript OOP + Phaser: Dodger Game",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "lab",
+      "lab-05",
+      "Frontend",
+      "JavaScript",
+      "OOP",
+      "Phaser"
+    ],
+    "milestone": "JavaScript Browser Applications",
+    "task": "Build the Phaser Dodger game by following the Lab 5 document and use object-oriented JavaScript and Phaser scenes to organize the application.",
+    "acceptance": [
+      "Add all files required by the Lab 5 document under labs/lab-05/.",
+      "Use JavaScript classes or object-oriented patterns and Phaser scenes to organize the application.",
+      "Implement the movement, enemies, collisions, scoring, and other features required by the Lab 5 document.",
+      "Add labs/lab-05/README.md with run instructions, what you built, challenges, and possible improvements."
+    ]
+  },
+  {
+    "key": "lab-06",
+    "title": "Lab-06 — REST Client: Quiz Game + Leaderboard (Modules + Fetch)",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "lab",
+      "lab-06",
+      "Frontend",
+      "JavaScript",
+      "REST",
+      "Fetch",
+      "JS Modules",
+      "Async"
+    ],
+    "milestone": "Modules and Asynchronous JavaScript",
+    "task": "Build the browser-based quiz and leaderboard client described in the Lab 6 document. Use Fetch for the required HTTP requests, organize the application with ES modules, and manage its client-side state.",
+    "acceptance": [
+      "Upload the completed files to labs/lab-06/ with index.html as the browser entry point and run the application through an HTTP development server.",
+      "Use ES modules to separate application responsibilities.",
+      "Use Fetch with promises or async/await for the required quiz and leaderboard requests.",
+      "Display appropriate loading, empty, success, and error states.",
+      "Add labs/lab-06/README.md with run instructions, endpoint information, and a brief reflection."
+    ]
+  },
+  {
+    "key": "project-02",
+    "title": "Homework 2 — Thick-Client Browser Application Capstone",
+    "published": true,
+    "status": "assigned",
+    "labels": [
+      "task",
+      "project",
+      "capstone",
+      "project-02",
+      "Frontend",
+      "JavaScript",
+      "React",
+      "Vite"
+    ],
+    "milestone": "Thick-Client Browser Application Capstone",
+    "task": "Design, build, deploy, and demonstrate a substantial thick-client browser application that integrates the JavaScript and React concepts developed throughout the course.",
+    "acceptance": [
+      "Create a separate project repository containing the capstone source, documentation, and reproducible setup instructions.",
+      "Create projects/project-02/README.md in the student portfolio with links to the project repository and deployed application.",
+      "Build a substantial browser interface with organized components, meaningful application state, and multiple user interactions.",
+      "Use React and Vite unless an alternate client-side architecture is approved by the instructor.",
+      "Include asynchronous data access or browser persistence where appropriate, with clear loading, empty, and error behavior.",
+      "Provide a responsive interface, final project documentation, and a working deployment for the Day 18 demonstration.",
+      "Add the repository URL, deployment URL, and demonstration notes to the project-02 Issue and mark it ready for review."
+    ]
+  },
+  {
+    "key": "react-labs-planned",
+    "title": "Additional React Labs — Planned, Not Yet Assigned",
+    "published": false,
+    "status": "planned",
+    "labels": [
+      "lab",
+      "React",
+      "Vite",
+      "planned"
+    ],
+    "milestone": "React Application Development",
+    "task": "Additional React labs will be published during Days 14–17. Their final numbers, roadmap keys, titles, requirements, acceptance criteria, and due dates have not yet been assigned.",
+    "planning": {
+      "course_days": [
+        14,
+        15,
+        16,
+        17
+      ],
+      "number_of_labs": null,
+      "lab_numbers": null,
+      "titles": null,
+      "due_dates": null
+    },
+    "acceptance": []
+  }
+]
