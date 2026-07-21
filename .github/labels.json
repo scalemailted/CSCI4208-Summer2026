@@ -1,0 +1,220 @@
+[
+  {
+    "name": "task",
+    "color": "0ea5e9",
+    "description": "Roadmap assignment managed by course automation",
+    "group": "system"
+  },
+  {
+    "name": "completed",
+    "color": "6f42c1",
+    "description": "Work finished by the student",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "approved",
+    "color": "2ea043",
+    "description": "Instructor sign-off",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "reviewed",
+    "color": "a371f7",
+    "description": "Reviewed by the student or a peer",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "deployed",
+    "color": "2dbf73",
+    "description": "Live URL provided and validated",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "peer-review-requested",
+    "color": "ffd33d",
+    "description": "Peer review requested",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "ready-for-approval",
+    "color": "0ea5e9",
+    "description": "Ready for instructor approval",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "changes-requested",
+    "color": "d73a4a",
+    "description": "Revisions required before approval",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "blocked",
+    "color": "6a737d",
+    "description": "Blocked by a dependency or issue",
+    "group": "status",
+    "preserveOnIssueSync": true
+  },
+  {
+    "name": "lab",
+    "color": "1d76db",
+    "description": "Lab assignment",
+    "group": "type"
+  },
+  {
+    "name": "capstone",
+    "color": "6f42c1",
+    "description": "Stable roadmap key and assignment type for the Summer capstone",
+    "group": "key"
+  },
+  {
+    "name": "optional",
+    "color": "bfdadc",
+    "description": "Optional enrichment assignment",
+    "group": "planning"
+  },
+  {
+    "name": "planned",
+    "color": "d4c5f9",
+    "description": "Planned but not yet assigned",
+    "group": "planning"
+  },
+  {
+    "name": "Frontend",
+    "color": "36b2a6",
+    "description": "Client-side interface and browser application work",
+    "group": "topic"
+  },
+  {
+    "name": "HTML",
+    "color": "e34c26",
+    "description": "Semantic HTML and document structure",
+    "group": "topic"
+  },
+  {
+    "name": "CSS",
+    "color": "563d7c",
+    "description": "CSS styling and responsive layout",
+    "group": "topic"
+  },
+  {
+    "name": "JavaScript",
+    "color": "f1e05a",
+    "description": "JavaScript programming",
+    "group": "topic"
+  },
+  {
+    "name": "DOM",
+    "color": "c5def5",
+    "description": "Document Object Model",
+    "group": "topic"
+  },
+  {
+    "name": "Events",
+    "color": "bfd4f2",
+    "description": "Browser events and interaction",
+    "group": "topic"
+  },
+  {
+    "name": "MVC",
+    "color": "d4c5f9",
+    "description": "Model-view-controller organization",
+    "group": "topic"
+  },
+  {
+    "name": "OOP",
+    "color": "c2e0c6",
+    "description": "Object-oriented programming",
+    "group": "topic"
+  },
+  {
+    "name": "Phaser",
+    "color": "00a8a8",
+    "description": "Phaser browser game framework",
+    "group": "topic"
+  },
+  {
+    "name": "REST",
+    "color": "0052cc",
+    "description": "REST-style HTTP services",
+    "group": "topic"
+  },
+  {
+    "name": "Fetch",
+    "color": "1f6feb",
+    "description": "Browser Fetch API",
+    "group": "topic"
+  },
+  {
+    "name": "JS Modules",
+    "color": "fbca04",
+    "description": "ECMAScript modules",
+    "group": "topic"
+  },
+  {
+    "name": "Async",
+    "color": "b60205",
+    "description": "Promises and asynchronous JavaScript",
+    "group": "topic"
+  },
+  {
+    "name": "Local-First",
+    "color": "0e8a16",
+    "description": "Local persistence and offline-first behavior",
+    "group": "topic"
+  },
+  {
+    "name": "React",
+    "color": "61dafb",
+    "description": "React component development",
+    "group": "topic"
+  },
+  {
+    "name": "Vite",
+    "color": "646cff",
+    "description": "Vite development and build tooling",
+    "group": "topic"
+  },
+  {
+    "name": "lab-01",
+    "color": "6a737d",
+    "description": "Stable roadmap key for Lab 01",
+    "group": "key"
+  },
+  {
+    "name": "lab-02",
+    "color": "6a737d",
+    "description": "Stable roadmap key for Lab 02",
+    "group": "key"
+  },
+  {
+    "name": "lab-03",
+    "color": "6a737d",
+    "description": "Stable roadmap key for optional Lab 03",
+    "group": "key"
+  },
+  {
+    "name": "lab-04",
+    "color": "6a737d",
+    "description": "Stable roadmap key for Lab 04",
+    "group": "key"
+  },
+  {
+    "name": "lab-05",
+    "color": "6a737d",
+    "description": "Stable roadmap key for Lab 05",
+    "group": "key"
+  },
+  {
+    "name": "lab-06",
+    "color": "6a737d",
+    "description": "Stable roadmap key for Lab 06",
+    "group": "key"
+  }
+]

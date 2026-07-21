@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "course": {
+    "code": "CSCI 4208",
+    "title": "Advanced Web Applications",
+    "term": "Summer 2026",
+    "timezone": "America/Chicago"
+  },
+  "source": {
+    "owner": "scalemailted",
+    "repository": "CSCI4208-Summer2026",
+    "ref": "main"
+  },
+  "files": {
+    "roadmap": ".github/roadmap.json",
+    "labels": ".github/labels.json"
+  },
+  "links": {
+    "courseRepository": "https://github.com/scalemailted/CSCI4208-Summer2026",
+    "studentGuide": "https://github.com/scalemailted/CSCI4208-Summer2026#assignment-tracking-and-submission"
+  }
+}
