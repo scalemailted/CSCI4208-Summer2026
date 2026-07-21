@@ -106,6 +106,36 @@ The completed application should demonstrate the major ideas from the course, in
 
 The canonical assignment definitions live in [`.github/roadmap.json`](.github/roadmap.json). Student repositories fetch that file and use GitHub Actions to create or update assignment Issues.
 
+### Synchronize Before Pushing
+
+GitHub Actions may update the remote repository between local work sessions. To avoid a rejected push or divergent branches, students should commit their work and then synchronize with `origin/main` before pushing:
+
+```bash
+git status
+git add .
+git commit -m "Complete Lab XX"
+git pull --rebase origin main
+git push origin main
+```
+
+If there is nothing new to commit, begin with `git pull --rebase origin main`, then push.
+
+If Git reports a conflict during the rebase:
+
+1. Run `git status` to identify the conflicting files.
+2. Edit each file and resolve the marked conflict sections.
+3. Stage each resolved file with `git add <filename>`.
+4. Continue with `git rebase --continue`.
+5. Repeat as needed, then run `git push origin main`.
+
+Use `git rebase --abort` to cancel the rebase and return to the state before it began. Do **not** use `git push --force` on a submission repository unless the instructor specifically directs you to do so.
+
+As an optional one-time setting, students can make rebase the default behavior for `git pull` in this repository:
+
+```bash
+git config pull.rebase true
+```
+
 ### Labs
 
 Assigned lab work is stored directly in the student portfolio repository:
