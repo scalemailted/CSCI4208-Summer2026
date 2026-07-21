@@ -292,6 +292,9 @@ function main() {
   const labelsDocument = readJson(labelsPath);
   const roadmapDocument = readJson(roadmapPath);
   const labels = validateLabels(labelsDocument, labelsPath);
+  if (!labels.has('retired')) {
+    error(`${labelsPath}: must define the retired label used when an Issue leaves the active roadmap.`);
+  }
   const { publishedCount } = validateRoadmap(roadmapDocument, roadmapPath, labels);
 
   for (const message of warnings) console.warn(`WARNING: ${message}`);

@@ -46,30 +46,6 @@
     ]
   },
   {
-    "key": "lab-03",
-    "title": "Lab 03 — Bootstrap Responsive Portfolio (optional)",
-    "published": false,
-    "status": "optional",
-    "labels": [
-      "task",
-      "lab",
-      "lab-03",
-      "Frontend",
-      "HTML",
-      "CSS",
-      "optional"
-    ],
-    "milestone": "HTML and CSS Foundations",
-    "instructions": "02-labs/Lab03-Boostrap.pdf",
-    "submissionPath": "labs/lab-03/",
-    "task": "Complete the optional Bootstrap portfolio lab for additional practice with responsive grids, components, utility classes, cards, carousels, and navigation.",
-    "acceptance": [
-      "Upload the completed optional lab to labs/lab-03/.",
-      "Use Bootstrap containers, grid utilities, components, and responsive behavior as required by the lab document.",
-      "Add labs/lab-03/README.md with run instructions and a brief reflection."
-    ]
-  },
-  {
     "key": "lab-04",
     "title": "Lab 04 — JavaScript Basics: Hi–Lo Game (MVP → MVC)",
     "published": true,
@@ -178,32 +154,5 @@
       "Provide a responsive interface, final project documentation, a working deployment, and a prepared Day 18 demonstration.",
       "Add the repository URL, deployment URL, and demonstration notes to the capstone Issue and mark it ready for approval."
     ]
-  },
-  {
-    "key": "react-labs-planned",
-    "title": "Additional React Labs — Planned, Not Yet Assigned",
-    "published": false,
-    "status": "planned",
-    "labels": [
-      "lab",
-      "React",
-      "Vite",
-      "planned"
-    ],
-    "milestone": "React Application Development",
-    "task": "Additional React labs may be published during Days 14–17. Their final roadmap keys, titles, requirements, acceptance criteria, and due dates have not yet been assigned.",
-    "planning": {
-      "courseDays": [
-        14,
-        15,
-        16,
-        17
-      ],
-      "numberOfLabs": null,
-      "labNumbers": null,
-      "titles": null,
-      "dueDates": null
-    },
-    "acceptance": []
   }
 ]
